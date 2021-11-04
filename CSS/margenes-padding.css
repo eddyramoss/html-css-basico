@@ -1,0 +1,12 @@
+h1{
+    background-color: #ec610e;
+    /*margin-left: 100px;
+    margin-bottom: 100px;
+    margin: 100px;*/
+    margin: 100px 50px 30px 200px;
+}
+p{
+    background-color: #a40a3c;
+    /*pading margen interior*/
+    padding: 20px;
+}
