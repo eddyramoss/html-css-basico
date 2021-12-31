@@ -1,0 +1,12 @@
+button{
+    background: #404969;
+    color: #bde4f4;
+}
+/*para cambiar de color al acercar el cursor al boton*/
+button:hover{
+    background: #ff7f50;
+}
+/*para cambiar de color al apretar el boton*/
+button:active{
+    background: #ff4273 ;
+}

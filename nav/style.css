@@ -1,0 +1,38 @@
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: slateblue;
+}
+nav{
+    background: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    border: 2px solid ;
+    display: none;
+}
+
+@media (max-width: 600px){
+    nav{
+        background: chartreuse;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece {
+        display: none;
+    }
+}
